@@ -76,3 +76,10 @@ gem 'simple_form'
 
 #Devise for authentication
 gem 'devise'
+
+#CarrierWave for images
+gem 'carrierwave', '~> 2.0'
+gem 'fog-aws'
+
+#Figaro for secure Rails application configuration
+gem 'figaro'
