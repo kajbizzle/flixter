@@ -83,3 +83,6 @@ gem 'fog-aws'
 
 #Figaro for secure Rails application configuration
 gem 'figaro'
+
+#Mini Magick for image resizing
+gem 'mini_magick'
