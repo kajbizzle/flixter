@@ -86,3 +86,6 @@ gem 'figaro'
 
 #Mini Magick for image resizing
 gem 'mini_magick'
+
+#CarrierWave AWS for video streaming
+gem 'carrierwave-aws'
