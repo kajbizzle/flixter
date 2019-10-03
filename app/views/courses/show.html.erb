@@ -4,7 +4,6 @@
   <h1><%= @course.title %></h1>
   <%= image_tag @course.image.url, class: 'img-fluid' %>
   <br />
-
   <div class="row">
 	  <div class="col-sm-4 col-12 text-center">
 	  	<span class="badge badge-default">
@@ -17,7 +16,6 @@
 	      <%= link_to 'Administer', instructor_course_path(@course), class: 'btn btn-danger btn-large' %>
 	    <% end %>
 	  </div>
-  </div>
 
   <div class="col-sm-8 col-12">
     <%= @course.description %>
@@ -30,16 +28,13 @@
         <%= section.title %>
         <% section.lessons.each do |lesson| %>
           <div class="lesson">
-          	<b><%= lesson.title %></b>
-          	  <% link_to lesson_path(lesson) do %>
-          	    <b><%= lesson.title %></b>
-
-          	    -
-
-          	    <%= lesson.subtitle %>
-              <% end %>
- 		  </div>
- 		<% end %>
+          	<%= link_to lesson_path(lesson) do %>
+          	 <b><%= lesson.title %></b>
+          	 -
+          	 <%= lesson.subtitle %>
+            <% end %>
+          </div>
+        <% end %>
       </div>
     <% end %>
   </div>
