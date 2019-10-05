@@ -89,3 +89,6 @@ gem 'mini_magick'
 
 #CarrierWave AWS for video streaming
 gem 'carrierwave-aws'
+
+#Strip for payment processing
+gem 'stripe'
