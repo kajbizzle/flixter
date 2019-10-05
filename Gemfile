@@ -92,3 +92,6 @@ gem 'carrierwave-aws'
 
 #Strip for payment processing
 gem 'stripe'
+
+#Ranked Model
+gem 'ranked-model'
