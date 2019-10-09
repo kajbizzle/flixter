@@ -95,3 +95,6 @@ gem 'stripe'
 
 #Ranked Model
 gem 'ranked-model'
+
+#JQuery UI Rails for a sortable drag and drop
+gem 'jquery-ui-rails'
