@@ -98,3 +98,6 @@ gem 'ranked-model'
 
 #JQuery UI Rails for a sortable drag and drop
 gem 'jquery-ui-rails'
+
+#Font Awesome
+gem 'font-awesome-rails'
